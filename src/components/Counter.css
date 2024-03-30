@@ -1,0 +1,38 @@
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+.counter--count{
+    height: 14%;
+    background-color: gray;
+    width: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 300px;
+}
+
+.counter--minus{
+    height: 5%;
+    width: 2.5%;
+    border-radius: 49%;
+    margin: -1rem;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.counter--plus{
+    height: 5%;
+    width: 2.5%;
+    border-radius: 49%;
+    margin: -1rem;
+    z-index: 1;
+    cursor: pointer;
+}
+
+

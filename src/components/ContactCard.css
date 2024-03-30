@@ -1,0 +1,40 @@
+/* .outest{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: coral;
+}
+
+.outer{
+    width:20%;
+    height: 75%;
+    background-color: cadetblue;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;  
+    margin: 0;
+}
+
+.profile{
+    width: 70%;
+    height: 30%;
+    margin-bottom: 140px;
+}
+
+.star{
+    width: 8%;
+    height: 8%;
+    align-self: flex-start;
+    margin: 8px;
+}
+
+.outer h1,
+.outer p {
+  margin: 0; 
+  text-indent: 10px;
+  align-self: flex-start;
+}
+  */

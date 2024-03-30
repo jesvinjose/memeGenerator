@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Conundrum from "./components/Conundrum";
+import Greeting from "./components/Greeting";
+import MemeGenerator from "./components/MemeGenerator";
+import Important from "./components/Important";
+import Counter from "./components/Counter";
+import Ternary from "./components/Ternary";
+import ContactCard from "./components/ContactCard";
 
 function App() {
+    
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <MemeGenerator />
+      {/* <Conundrum/> */}
+      {/* <Greeting name={"Jesvin"}/> */}
+      {/* <Important/> */}
+      {/* <Counter/> */}
+      {/* <Ternary/> */}
+      {/* <ContactCard/> */}
     </div>
   );
 }
